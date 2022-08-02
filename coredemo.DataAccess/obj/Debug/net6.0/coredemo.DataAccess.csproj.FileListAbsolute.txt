@@ -1,0 +1,17 @@
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\bin\Debug\net6.0\coredemo.DataAccess.deps.json
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\bin\Debug\net6.0\coredemo.DataAccess.runtimeconfig.json
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\bin\Debug\net6.0\coredemo.DataAccess.dll
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\bin\Debug\net6.0\coredemo.DataAccess.pdb
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\bin\Debug\net6.0\coredemo.Models.dll
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\bin\Debug\net6.0\coredemo.Models.pdb
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\obj\Debug\net6.0\coredemo.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\obj\Debug\net6.0\coredemo.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\obj\Debug\net6.0\coredemo.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\obj\Debug\net6.0\coredemo.DataAccess.AssemblyInfo.cs
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\obj\Debug\net6.0\coredemo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\obj\Debug\net6.0\coredemo.DataAccess.csproj.CopyComplete
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\obj\Debug\net6.0\coredemo.DataAccess.dll
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\obj\Debug\net6.0\refint\coredemo.DataAccess.dll
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\obj\Debug\net6.0\coredemo.DataAccess.pdb
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\obj\Debug\net6.0\coredemo.DataAccess.genruntimeconfig.cache
+C:\Users\Jee\source\repos\coredemoindi\coredemo.DataAccess\obj\Debug\net6.0\ref\coredemo.DataAccess.dll

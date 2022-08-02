@@ -1,0 +1,89 @@
+﻿@model coredemo.Models.ViewModels.ShoppingCartVM
+@using Microsoft.Extensions.Options
+@inject IOptions<coredemo.Utility.StripeSettings> Stripe
+
+<form method="post" >
+    <div class="row container pt-3">
+        <div class="bg-dark col-12 col-md-12   row">
+            <div class="col-md-6 text-left pt-2">
+                <p class="text-light"> Shipping Summary</p>
+            </div>
+            <div class="col-md-6 text-end p-2">
+                <a class="btn btn-outline-info btn-sm">
+
+                        Continue Shopping
+                        </a>
+            </div>
+        </div>
+        <div class="col-12 border row">
+            <div class="col-lg-6">
+                <div class="p-3 col-12">
+                    <h4 class="text-info"> Shipping Details</h4>
+                </div>
+                <div class="col-12 p-2 w-100">
+                    <label>Name:</label>
+                    <input asp-for="OrderHeader.Name" class="form-control d-inline-block"/>
+                    <span class="text-danger" asp-validation-for="OrderHeader.Name"></span>
+                    <label>Phone:</label>
+                    <input asp-for="OrderHeader.PhoneNumber" class="form-control d-inline-block"/>
+                    <span class="text-danger" asp-validation-for="OrderHeader.PhoneNumber"></span>
+                    <label>Street Address:</label>
+                    <input asp-for="OrderHeader.StreetAddress" class="form-control d-inline-block"/>
+                    <span class="text-danger" asp-validation-for="OrderHeader.StreetAddress"></span>
+                    <label>City:</label>
+                    <input asp-for="OrderHeader.City" class="form-control d-inline-block"/>
+                    <span class="text-danger" asp-validation-for="OrderHeader.City"></span>
+                    <label>State:</label>
+                    <input asp-for="OrderHeader.State" class="form-control d-inline-block"/>
+                    <span class="text-danger" asp-validation-for="OrderHeader.State"></span>
+                    <label>Postal Code:</label>
+                    <input asp-for="OrderHeader.PostalCode" class="form-control d-inline-block"/>
+                    <span class="text-danger" asp-validation-for="OrderHeader.PostalCode"></span>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                 <div class="p-3 col-12">
+                    <h4 class="text-info"> Order Summary</h4>
+                </div>
+                    @foreach(var details in Model.ShoppingCarts)
+                    {
+                <div class="border col-12 row">
+                        <div class="col-md-6">
+                            <h5 class="p-2">@details.product.Title</h5>
+                            <p class="p-2 text-secondary">Quantity: @details.Count</p>
+                        </div>
+                        <div class="col-md-6 text-end p-4">
+                            <p class="text-secondary">@details.Price.ToString("c") * @details.Count</p>
+                        </div>
+                </div>
+                    }
+                <div class="border col-12 row">
+                    <div class="col-md-6">
+
+                    <p class="p-2 text-info">Total (USD)</p>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <p class="text-info">@Model.OrderHeader.OrderTotal.ToString("c")</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 bg-secondary row border">
+            <div class="col-lg-6 p-3">
+                <h5 class="text-danger ">Estimate Arrival Date:
+                    @DateTime.Now.AddDays(7).ToShortDateString() - @DateTime.Now.AddDays(14).ToShortDateString()
+                </h5>
+            </div>
+            <div class="col-lg-6 p-3 text-end">
+                <button class="btn btn-primary">Place Order</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

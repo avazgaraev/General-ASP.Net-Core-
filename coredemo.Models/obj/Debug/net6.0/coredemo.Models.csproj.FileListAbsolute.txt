@@ -1,0 +1,12 @@
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\bin\Debug\net6.0\coredemo.Models.deps.json
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\bin\Debug\net6.0\coredemo.Models.dll
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\bin\Debug\net6.0\coredemo.Models.pdb
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\obj\Debug\net6.0\coredemo.Models.csproj.AssemblyReference.cache
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\obj\Debug\net6.0\coredemo.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\obj\Debug\net6.0\coredemo.Models.AssemblyInfoInputs.cache
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\obj\Debug\net6.0\coredemo.Models.AssemblyInfo.cs
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\obj\Debug\net6.0\coredemo.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\obj\Debug\net6.0\coredemo.Models.dll
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\obj\Debug\net6.0\refint\coredemo.Models.dll
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\obj\Debug\net6.0\coredemo.Models.pdb
+C:\Users\Jee\source\repos\coredemoindi\coredemo.Models\obj\Debug\net6.0\ref\coredemo.Models.dll
